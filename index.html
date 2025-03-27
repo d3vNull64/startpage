@@ -1,0 +1,240 @@
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="./css/style.css"
+      type="text/css"
+      media="screen"
+    />
+    <link rel="icon" href="favico.ico" type="image/x-icon" />
+    <title>~ new page ~</title>
+  </head>
+  <body>
+    <div class="main-container">
+      <section class="input-container center-r round">
+        <input
+          id="query"
+          type="text"
+          onkeypress="handleQuery(event)"
+          placeholder="Search..."
+        />
+        <div id="info">
+          <i class="nf nf-cod-info input-info"></i>
+          <span class="tooltip">
+            <ul>
+              <li>!b - Brave (default)</li>
+              <li>!g - Google</li>
+              <li>!d - DuckDuckGo</li>
+              <li>!a - Amazon</li>
+              <li>!y - YouTube</li>
+            </ul>
+          </span>
+        </div>
+      </section>
+
+      <section class="bento-box round" id="bento-box">
+        <one class="glass-box shadow zoom">
+          <div class="center">
+            <h4 class="_4c">Mail</h4>
+
+            <ul
+              class="center-r"
+              style="list-style: none; margin-left: -40px; margin-top: -16px"
+            >
+              <li>
+                <a class="lst" href="https://gmail.com" title="Gmail">
+                  <i class="ng nf-md-gmail icon_s gm"></i>
+                </a>
+              </li>
+
+              <li>
+                <a class="lst" href="https://outlook.com" title="Outlook">
+                  <i class="nf nf-md-microsoft_outlook icon_s ok"></i>
+                </a>
+              </li>
+              <li>
+                <a class="lst" href="https://proton.me/mail" title="Protonmail">
+                  <i class="nf nf-cod-mail icon_s pm"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </one>
+
+        <two class="glass-box shadow zoom">
+          <div class="center" title="YouTube">
+            <a class="lst" href="https://www.youtube.com">
+              <i class="nf nf-oct-video icon yt"></i>
+            </a>
+          </div>
+        </two>
+
+        <three class="glass-box shadow zoom">
+          <div class="center">
+            <h4 title="Reddit">
+              <i class="nf nf-fa-reddit_alien _4c"> </i>
+              <a class="rd" href="https://reddit.com"> Reddit </a>
+            </h4>
+            <ul style="list-style: none; margin-left: -40px">
+              <li title="r/UnixPorn">
+                <a class="lst" href="https://www.reddit.com/r/unixporn/">
+                  r/unixporn
+                </a>
+              </li>
+              <li title="r/emacs">
+                <a class="lst" href="https://www.reddit.com/r/emacs">
+                  r/emacs
+                </a>
+              </li>
+              <li title="r/EDC">
+                <a class="lst" href="https://www.reddit.com/r/EDC"> r/EDC </a>
+              </li>
+              <li title="r/ThinkPad">
+                <a class="lst" href="https://www.reddit.com/r/thinkpad">
+                  r/ThinkPad
+                </a>
+              </li>
+              <li title="r/python">
+                <a class="lst" href="https://www.reddit.com/r/python">
+                  r/Python
+                </a>
+              </li>
+              <li title="r/ArtOfRolling">
+                <a class="lst" href="https://www.reddit.com/r/ArtOfRolling">
+                  r/ArtOfRolling
+                </a>
+              </li>
+              <li title="r/pornfree">
+                <a class="lst" href="https://www.reddit.com/r/pornfree">
+                  r/pornfree
+                </a>
+              </li>
+              <li title="r/nofap">
+                <a class="lst" href="https://www.reddit.com/r/nofap">
+                  r/nofap
+                </a>
+              </li>
+            </ul>
+          </div>
+        </three>
+
+        <four class="glass-box shadow zoom">
+          <div class="center">
+            <h4 title="Reddit">
+              <i class="nf nf-md-clover _4ci"> </i>
+              <a class="lst" href="https://4chan.org"> 4chan </a>
+            </h4>
+            <ul style="list-style: none; margin-left: -40px">
+              <li title="/g/ - Technology">
+                <a class="lst" href="https://boards.4chan.org/g/catalog">
+                  /g/ - Tech
+                </a>
+              </li>
+              <li title="/fit/ - Fitness">
+                <a class="lst" href="https://boards.4chan.org/fit/catalog">
+                  /fit/ - Fit
+                </a>
+              </li>
+              <li title="/ck/ - Food & Cooking">
+                <a class="lst" href="https://boards.4chan.org/ck/catalog">
+                  /ck/ - Food
+                </a>
+              </li>
+              <li title="/wg/ - Wallpapers/General">
+                <a class="lst" href="https://boards.4chan.org/wg/catalog">
+                  /wg/ - Walls
+                </a>
+              </li>
+              <li title="/mu/ - Music">
+                <a class="lst" href="https://boards.4chan.org/mu/catalog">
+                  /mu/ - Music
+                </a>
+              </li>
+              <li title="/diy/ - Did It Yourself">
+                <a class="lst" href="https://boards.4chan.org/diy/catalog">
+                  /diy/ - DIY
+                </a>
+              </li>
+              <li title="/wsg/ - Work Safe Gifs">
+                <a class="lst" href="https://boards.4chan.org/wsg/catalog">
+                  /wsg/ - GIFs
+                </a>
+              </li>
+              <li title="/x/ - Paranormal">
+                <a class="lst" href="https://boards.4chan.org/x/catalog">
+                  /x/ - Spooky
+                </a>
+              </li>
+            </ul>
+          </div>
+        </four>
+
+        <five class="glass-box shadow zoom">
+          <div class="center" title="GitHub">
+            <a class="lst" href="https://github.com/">
+              <i class="nf nf-cod-github icon gh"></i>
+            </a>
+          </div>
+        </five>
+
+        <six class="glass-box shadow zoom">
+          <div class="center" title="GitLab">
+            <a class="lst" href="https://gitlab.com/">
+              <i class="nf nf-md-gitlab icon gl"></i>
+            </a>
+          </div>
+        </six>
+
+        <seven class="glass-box shadow zoom">
+          <div id="wallpaper" class="center">
+            <div class="bluring round" onclick="randomWallpaper()"></div>
+            <img id="w-img" alt="imagen" class="round" />
+          </div>
+        </seven>
+
+        <eight class="glass-box shadow zoom">
+          <div class="center" title="TypingClub">
+            <a class="lst" href="https://www.typingclub.com/">
+              <i class="nf nf-md-keyboard_variant icon tc"></i>
+            </a>
+          </div>
+        </eight>
+
+        <nine class="glass-box shadow zoom">
+          <div class="center">
+            <h4 class="_4c">Social Media</h4>
+
+            <ul
+              class="center-r"
+              style="list-style: none; margin-left: -40px; margin-top: -16px"
+            >
+              <li>
+                <a class="lst" href="https://instagram.com" title="Instagram">
+                  <i class="ng nf-fa-instagram icon_s ig"></i>
+                </a>
+              </li>
+
+              <li>
+                <a class="lst" href="https://facebook.com" title="Facebook">
+                  <i class="nf nf-fa-facebook_f icon_s fb"></i>
+                </a>
+              </li>
+              <li>
+                <a class="lst" href="https://x.com" title="X">
+                  <i class="nf nf-dev-twitter icon_s"></i>
+                </a>
+              </li>
+              <li>
+                <a class="lst" href="https://pinterest.com" class="Pinterest">
+                  <i class="nf nf-fa-pinterest_p icon_s pt"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nine>
+      </section>
+    </div>
+
+    <script type="text/javascript" src="./js/script.js"></script>
+  </body>
+</html>
