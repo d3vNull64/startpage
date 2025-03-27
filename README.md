@@ -3,12 +3,14 @@ Startpage using HTML, CSS and Javascript
 
 ## Dependencies
 - Font : SFRounded
-- Color from [Gruvbox-Material](https://github.com/sainnhe/gruvbox-material)
+
+## Colors
+- From [Gruvbox-Material](https://github.com/sainnhe/gruvbox-material)
 
 ## Search features
 - !b - Brave (default)
 - !g - Google
-* !d - Duckduckgo
+- !d - Duckduckgo
 - !a - Amazon
 - !y - Youtube
 
