@@ -29,7 +29,7 @@ function handleQuery(event) {
 }
 
 function randomWallpaper() {
-	let imgPath = "../img/" + Math.floor(Math.random() * 9) + ".png";
+	let imgPath = "./img/" + Math.floor(Math.random() * 9) + ".png";
 	return (document.getElementById("w-img").src = imgPath);
 }
 
